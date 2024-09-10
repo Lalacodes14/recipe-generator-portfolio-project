@@ -1,9 +1,9 @@
 body {
-  background-color: rgb(253, 239, 245);
+  background-color: rgba(253, 239, 249);
   font-family: Helvetica, Arial, sans-serif;
 }
 a {
-  color: aqua;
+  color: rgb(250, 129, 190);
 }
 .container {
   margin: 120px auto;
@@ -18,7 +18,7 @@ h1 {
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: white;
+  color: black;
 }
 
 form {
@@ -42,8 +42,8 @@ form {
 
 .submit-button {
   margin-left: 10px;
-  background: aqua;
-  color: white;
+  background: rgba(253, 239, 245);
+  color: black;
   border: none;
   width: 150px;
   font-size: 16px;
@@ -56,7 +56,7 @@ form {
   background-color: white;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid aqua;
+  border-left: 3px solid rgba(253, 239, 245);
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.03);
 }
 
