@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Recipe Generator</title>
 </head>
@@ -17,7 +18,7 @@
         <main>
             <form id="recipe-generator-form">
                 <input type="text" palceholder="Enter a keyword i.e sweet dessert" autofocus required autocomplete="off"
-                    class="instructions" />
+                    class="instructions" id="user-instructions" />
                 <input type="submit" class="submit-button" />
             </form>
             <div class="recipe" id="recipe">
