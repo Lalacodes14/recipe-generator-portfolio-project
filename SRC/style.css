@@ -1,6 +1,6 @@
 body {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/143/115/original/AI_Recipe_Generator_Background_image_Preview.jpeg?1726135312");
-  background-size: 100%;
+  background-size: 100vw 100vh;
   font-family: Helvetica, Arial, sans-serif;
 }
 a {
