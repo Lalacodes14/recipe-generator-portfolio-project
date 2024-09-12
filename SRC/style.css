@@ -84,7 +84,7 @@ footer {
 
 @keyframes blink-animation {
   to {
-    visibilty: hidden;
+    visibility: hidden;
   }
 }
 @-webkit-keyframes blink-animation {
