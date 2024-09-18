@@ -1,12 +1,15 @@
 body {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/143/115/original/AI_Recipe_Generator_Background_image_Preview.jpeg?1726135312");
-  background-size: 100vw 100vh;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/144/165/original/image0_%288%29.jpeg?1726683782");
+  background-size: 100%;
+  background-repeat: no-repeat;
   font-family: Helvetica, Arial, sans-serif;
 }
 a {
   color: rgb(244, 189, 24);
 }
 .container {
+  opacity: 0.9;
+
   margin: 120px auto;
   max-width: 600px;
 }
@@ -22,6 +25,7 @@ h1 {
   color: white;
 }
 .form-container {
+  opacity: 0.9;
   padding: 15px 20px;
   background-color: white;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
@@ -57,7 +61,7 @@ form {
   width: 150px;
   font-size: 16px;
   border-radius: 50px;
-  padding: 14px 24px;
+  padding: 24px 36px;
 }
 
 .recipe {
