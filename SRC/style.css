@@ -67,6 +67,7 @@ form {
 .recipe {
   font-size: 16px;
   background-color: white;
+  opacity: 0.9;
   padding: 20px;
   line-height: 2;
   border-left: 3px solid rgb(244, 189, 24);
